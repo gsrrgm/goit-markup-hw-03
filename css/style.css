@@ -3,7 +3,7 @@
     --logo-font: "Releway";
     --dark: #434455;
     /* navy-blue __ Overlays, Shadows, Headings */
-    --primary-brands: #4D5AE5, Iris;
+    --Iris: #4D5AE5,;
     /* Iris __ CTAs focused, Active, states, Links */
 
 }
@@ -59,4 +59,16 @@ p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+}
+
+span {
+    font-family: var(--logo-font);
+    color: var(--iris, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
