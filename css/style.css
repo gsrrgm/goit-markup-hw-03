@@ -75,7 +75,7 @@ p {
 /* logo */
 
 .logo {
-    font-family: var(--logo-font);
+    font-family: "Raleway", sans-serif;
     color: var(--iris, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
