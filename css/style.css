@@ -1,11 +1,18 @@
 :root {
     --page-font: "Roboto", sans-serif;
     --logo-font: "Releway";
-    --dark: #434455;
+    --dark: #2e2f42;
     /* navy-blue __ Overlays, Shadows, Headings */
-    --Iris: #4D5AE5,;
+    --primary-brand: #4D5AE5;
     /* Iris __ CTAs focused, Active, states, Links */
-
+    --white-background: #ffffff;
+    /* white __ Header, team card - background */
+    --text: #434455;
+    /* slate __ body text */
+    --pressed-state: #404BBF;
+    /* ocean __ CTAs */
+    --light: #f4f4fd;
+    /* cloud __ Light mode backgrounds, Light mode Dialogs/alerts */
 }
 
 
@@ -20,11 +27,13 @@ p,
 ul,
 li {
     font-family: var(--page-font);
-    color: var(--dark);
+    color: var(--text);
     text-decoration: none;
-    margin: 0;
-    padding: 0;
     list-style: none;
+}
+
+body {
+    background-color: var(--white-background);
 }
 
 a {
@@ -45,12 +54,14 @@ button {
     font-family: inherit;
 }
 
-h3 {
+.subtitle {
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: var(--dark);
 
 }
 
@@ -61,14 +72,138 @@ p {
     letter-spacing: 0.32px;
 }
 
-span {
+/* logo */
+
+.logo {
     font-family: var(--logo-font);
     color: var(--iris, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
     line-height: 1.16;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.logo_dark {
+
+    color: var(--dark);
+
+}
+
+/* nav */
+.list {
+    list-style: none;
+
+}
+
+.list__link {
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+link {
+    text-decoration: none
+}
+
+address {
+    font-style: normal;
+
+
+}
+
+.list__contact {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link:hover {
+    color: var(--pressed-state);
+}
+
+.link:focus {
+    color: var(--pressed-state);
+}
+
+/* main */
+
+.hero-image {
+    background-color: var(--dark);
+    text-align: center;
+    color: var(--white-background);
+}
+
+.hero-image__title {
+    color: var(--white-background);
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-image__button {
+    background-color: var(--primary-brand);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+
+.hero-image__button:hover {
+    background-color: var(--pressed-state);
+}
+
+.hero-image__button:focus {
+    background-color: var(--pressed-state);
+}
+
+.title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--dark);
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.preview {
+    background-color: var(--light);
+}
+
+.preview__item {
+    background-color: var(--white-background);
+}
+
+/* portfulio main */
+
+.filters__batton{
+    color: var(--primary-brand);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--light);
+}
+.filters__batton:hover {
+    background-color: var(--pressed-state);
+    color: var(--white-background);
+}
+.filters__batton:focus {
+    background-color: var(--pressed-state);
+    color: var(--white-background);
+}
+
+/* footer */
+.footer {
+    background-color: var(--dark);
+
+}
+
+.logo_light,.footer__text {
+    color: var(--light);
 }
