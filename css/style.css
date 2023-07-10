@@ -86,9 +86,12 @@ p {
 }
 
 .logo_dark {
-
+    font-family: var(--logo-font);
     color: var(--dark);
 
+}
+..logo_light {
+    font-family: var(--logo-font);
 }
 
 /* nav */
