@@ -75,9 +75,8 @@ p {
 /* logo */
 
 .logo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--logo-font);
     color: var(--iris, #4D5AE5);
-    font-family: Raleway;
     font-size: 18px;
     line-height: 1.17;
     font-weight: 800;
@@ -86,12 +85,12 @@ p {
 }
 
 .logo_dark {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--logo-font);
     color: var(--dark);
 
 }
 .logo_light {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--logo-font);
 }
 
 /* nav */
