@@ -1,6 +1,6 @@
 :root {
-    --page-font: "Roboto", sans-serif;
-    --logo-font: "Releway", sans-serif;
+    --page-font: "Roboto", sans-serif,;
+    --logo-font: "Releway", sans-serif,;
     --dark: #2e2f42;
     /* navy-blue __ Overlays, Shadows, Headings */
     --primary-brand: #4D5AE5;
@@ -184,7 +184,7 @@ address {
 
 /* portfulio main */
 
-.filters__batton{
+.main__batton{
     color: var(--primary-brand);
     font-weight: 500;
     font-size: 16px;
@@ -192,11 +192,11 @@ address {
     letter-spacing: 0.04em;
     background-color: var(--light);
 }
-.filters__batton:hover {
+.main__batton:hover {
     background-color: var(--pressed-state);
     color: var(--white-background);
 }
-.filters__batton:focus {
+.main__batton:focus {
     background-color: var(--pressed-state);
     color: var(--white-background);
 }
