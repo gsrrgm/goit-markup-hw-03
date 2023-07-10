@@ -86,12 +86,12 @@ p {
 }
 
 .logo_dark {
-    font-family: var(--logo-font);
+    font-family: "Raleway", sans-serif;
     color: var(--dark);
 
 }
-..logo_light {
-    font-family: var(--logo-font);
+.logo_light {
+    font-family: "Raleway", sans-serif;
 }
 
 /* nav */
