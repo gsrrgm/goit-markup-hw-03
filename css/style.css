@@ -121,6 +121,18 @@ section {
     gap: 24px;
 }
 
+link {
+    text-decoration: none
+}
+
+.link:hover {
+    color: var(--pressed-state);
+}
+
+.link:focus {
+    color: var(--pressed-state);
+}
+
 /* header__logo */
 
 .logo {
@@ -156,12 +168,11 @@ section {
 }
 
 /* header__nav */
+
 .header__nav {
     display: flex;
     align-items: center;
 }
-
-
 
 .menu__list {
     display: flex;
@@ -178,13 +189,7 @@ section {
     padding: 24px 0;
 }
 
-link {
-    text-decoration: none
-}
-
-
 /*  header__address */
-
 address {
     font-style: normal;
 }
@@ -201,15 +206,6 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-.link:hover {
-    color: var(--pressed-state);
-}
-
-.link:focus {
-    color: var(--pressed-state);
-}
-
 
 /*  index  main__hero imag */
 
@@ -346,7 +342,7 @@ address {
 }
 
 .promo__item {
-    
+
     border: 1px solid var(--cornflower, #E7E9FC);
     background: var(--white, #FFF);
     flex-basis: calc((100% - 48px) / 3);
