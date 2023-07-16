@@ -1,3 +1,6 @@
+* {
+ box-sizing: inherit;
+}
 :root {
     --page-font: "Roboto", sans-serif;
     --logo-font: "Raleway", sans-serif;
@@ -16,6 +19,9 @@
     --main-battom-text: #e7e9fc;
 }
 
+html {
+    box-sizing: border-box;
+}
 
 
 body,
@@ -272,11 +278,14 @@ address {
 }
 
 
+/* index main__galary */
+.galary {
+    padding-bottom: 120px;
+}
 
 /* index  main__preview */
 
 .preview {
-    margin-top: 120px;
     background-color: var(--light);
     padding: 120px 0;
 }
@@ -348,6 +357,7 @@ address {
 .promo__text {
     padding: 32px 16px;
     border: 1px solid var(--cornflower, #E7E9FC);
+    border-top: none;
     background: var(--white, #FFF);
     font-family: Roboto;
     font-size: 20px;
