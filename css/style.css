@@ -71,10 +71,6 @@ button {
 }
 
 
-section {
-    padding: 120px 0;
-}
-
 .container {
 
     max-width: 1158px;
@@ -181,6 +177,7 @@ link {
 }
 
 .menu__link {
+    display: inline-block;
     color: var(--dark);
     font-weight: 500;
     font-size: 16px;
@@ -197,11 +194,11 @@ address {
 .contact__list {
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
 .contact__item {
     display: inherit;
-    gap: 40px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -257,17 +254,32 @@ address {
 /* index  maine__feature */
 
 .feature {
-    padding-bottom: 0;
+    padding: 120px 0;
 }
 
 .feature-list__item {
     flex-basis: calc((100% - 72px) / 4)
 }
 
+.subtitle {
+    margin-bottom: 8px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
 
 
 /* index  main__preview */
 
+.preview {
+    margin-top: 120px;
+    background-color: var(--light);
+    padding: 120px 0;
+}
 
 .preview__img {
     max-width: 100%;
@@ -276,10 +288,6 @@ address {
 .preview__text {
     padding: 32px 16px;
     text-align: center;
-}
-
-.preview {
-    background-color: var(--light);
 }
 
 .preview__item {
@@ -339,12 +347,17 @@ address {
 
 .promo__text {
     padding: 32px 16px;
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--white, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
 }
 
 .promo__item {
-
-    border: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--white, #FFF);
     flex-basis: calc((100% - 48px) / 3);
 }
 
@@ -367,7 +380,7 @@ address {
     width: 264px;
 }
 
-.footer__logo {
-    display: block;
+.footer__link {
+    display: inline-block;
     margin-bottom: 18px;
 }
