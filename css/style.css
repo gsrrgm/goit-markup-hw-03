@@ -1,7 +1,6 @@
 * {
-    box-sizing: inherit;
+ box-sizing: inherit;
 }
-
 :root {
     --page-font: "Roboto", sans-serif;
     --logo-font: "Raleway", sans-serif;
@@ -393,14 +392,6 @@ address {
 
 .footer__link {
     display: inline-block;
-    margin-bottom: 18px;
-
-    font-family: var(--logo-font);
-    color: var(--iris, #4D5AE5);
-    font-size: 18px;
-    line-height: 1.17;
-    font-weight: 800;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    margin-bottom: 16px;
 
 }
